@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  header 
+    h1= 'Message Board'
+    p= 'Hello world!'
+  main
+    .button-container
+      a(href=`http://localhost:${process.env.PORT || 3000}/new`): button.post-btn= 'Speak Yo Mind!'
+    each message in messages 
+      section.message-box
+        h2= message.user
+        p= message.text
+        h4= message.added
+
+      

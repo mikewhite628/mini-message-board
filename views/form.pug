@@ -1,0 +1,15 @@
+extends layout 
+
+block content 
+    header 
+        h1= 'Message Board'
+        p= 'Say your piece!'
+    main 
+        section
+            .form-container 
+                form(method='POST' action='/new')
+                    textarea(name='description' placeholder='Pinapples do not belong on pizza LOL')
+                    br
+                    input(type="text" placeholder='Username' name='username' id='username')
+                    br
+                    button(type='submit' id='submit-btn')= 'post'

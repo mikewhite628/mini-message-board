@@ -1,0 +1,53 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-size: 20px;
+  background-color: grey;
+  color:aliceblue;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h2 {
+  color: blueviolet
+}
+
+.message-box {
+  box-shadow: 1px 1px 3px grey;
+  max-width: 60%;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.button-container{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.post-btn {
+  height: 3rem;
+  width: 10rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  
+}
+
+
+
+
