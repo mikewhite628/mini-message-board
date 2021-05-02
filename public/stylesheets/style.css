@@ -45,7 +45,14 @@ h2 {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  
+  text-align: center;
+}
+
+textarea {
+  height: 200px;
+  width: 400px;
+  outline: none;
+
 }
 
 
